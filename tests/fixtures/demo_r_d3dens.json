@@ -1,0 +1,93 @@
+{
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Population density by NUTS 3 region",
+  "source": "ESTAT",
+  "updated": "2026-02-25T23:00:00+0100",
+  "value": {
+    "7": 5093.5,
+    "0": 7827.4,
+    "1": 2868.7,
+    "2": 4828.6,
+    "3": 4342.6,
+    "4": 2615.6,
+    "5": 20147.8,
+    "6": 1985.0
+  },
+  "status": {
+    "5": "p",
+    "6": "p"
+  },
+  "id": [
+    "freq",
+    "unit",
+    "geo",
+    "time"
+  ],
+  "size": [
+    1,
+    1,
+    8,
+    1
+  ],
+  "dimension": {
+    "freq": {
+      "label": "Time frequency",
+      "category": {
+        "index": {
+          "A": 0
+        },
+        "label": {
+          "A": "Annual"
+        }
+      }
+    },
+    "unit": {
+      "label": "Unit of measure",
+      "category": {
+        "index": {
+          "PER_KM2": 0
+        },
+        "label": {
+          "PER_KM2": "Persons per square kilometre"
+        }
+      }
+    },
+    "geo": {
+      "label": "Geopolitical entity (reporting)",
+      "category": {
+        "index": {
+          "BE100": 0,
+          "CZ010": 1,
+          "DE212": 2,
+          "DE300": 3,
+          "DE600": 4,
+          "FR101": 5,
+          "NL32B": 6,
+          "AT130": 7
+        },
+        "label": {
+          "BE100": "Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad",
+          "CZ010": "Hlavní město Praha",
+          "DE212": "München, Kreisfreie Stadt",
+          "DE300": "Berlin",
+          "DE600": "Hamburg",
+          "FR101": "Paris",
+          "NL32B": "Groot-Amsterdam",
+          "AT130": "Wien"
+        }
+      }
+    },
+    "time": {
+      "label": "Time",
+      "category": {
+        "index": {
+          "2024": 0
+        },
+        "label": {
+          "2024": "2024"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Bank"
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "name": "Ascension Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "name": "Day after Ascension Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Bank"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "name": "Whit Monday",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "name": "Belgian National Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "name": "Assumption Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "name": "All Saints' Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "name": "Armistice Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "countryCode": "BE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Bank"
+    ]
+  }
+]

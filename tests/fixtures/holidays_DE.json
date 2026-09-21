@@ -1,0 +1,232 @@
+[
+  {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-01-06",
+    "name": "Epiphany",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-BW",
+      "DE-BY",
+      "DE-ST"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-03-08",
+    "name": "International Women's Day",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-BE",
+      "DE-MV"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-BB"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "name": "Ascension Day",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-24",
+    "name": "Pentecost",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-BB"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "name": "Whit Monday",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "name": "Corpus Christi",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-BW",
+      "DE-BY",
+      "DE-HE",
+      "DE-NW",
+      "DE-RP",
+      "DE-SL"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "name": "Assumption Day",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-SL"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "name": "World Children's Day",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-TH"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "German Unity Day",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "name": "Reformation Day",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-BB",
+      "DE-MV",
+      "DE-SN",
+      "DE-ST",
+      "DE-TH",
+      "DE-HB",
+      "DE-HH",
+      "DE-NI",
+      "DE-SH"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "name": "All Saints' Day",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-BW",
+      "DE-BY",
+      "DE-NW",
+      "DE-RP",
+      "DE-SL"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "name": "Repentance and Prayer Day",
+    "countryCode": "DE",
+    "nationalHoliday": false,
+    "subdivisionCodes": [
+      "DE-SN"
+    ],
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "countryCode": "DE",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  }
+]

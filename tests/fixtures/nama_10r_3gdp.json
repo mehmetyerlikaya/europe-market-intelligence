@@ -1,0 +1,95 @@
+{
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Gross domestic product (GDP) at current market prices by NUTS 3 region",
+  "source": "ESTAT",
+  "updated": "2026-02-10T11:00:00+0100",
+  "value": {
+    "7": 53400,
+    "0": 73100,
+    "1": 75700,
+    "2": 89900,
+    "3": 48700,
+    "4": 75000,
+    "5": 115300,
+    "6": 96500
+  },
+  "status": {
+    "2": "p",
+    "3": "p",
+    "4": "p",
+    "5": "p"
+  },
+  "id": [
+    "freq",
+    "unit",
+    "geo",
+    "time"
+  ],
+  "size": [
+    1,
+    1,
+    8,
+    1
+  ],
+  "dimension": {
+    "freq": {
+      "label": "Time frequency",
+      "category": {
+        "index": {
+          "A": 0
+        },
+        "label": {
+          "A": "Annual"
+        }
+      }
+    },
+    "unit": {
+      "label": "Unit of measure",
+      "category": {
+        "index": {
+          "PPS_EU27_2020_HAB": 0
+        },
+        "label": {
+          "PPS_EU27_2020_HAB": "Purchasing power standard (PPS, EU27 from 2020), per inhabitant"
+        }
+      }
+    },
+    "geo": {
+      "label": "Geopolitical entity (reporting)",
+      "category": {
+        "index": {
+          "BE100": 0,
+          "CZ010": 1,
+          "DE212": 2,
+          "DE300": 3,
+          "DE600": 4,
+          "FR101": 5,
+          "NL32B": 6,
+          "AT130": 7
+        },
+        "label": {
+          "BE100": "Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad",
+          "CZ010": "Hlavní město Praha",
+          "DE212": "München, Kreisfreie Stadt",
+          "DE300": "Berlin",
+          "DE600": "Hamburg",
+          "FR101": "Paris",
+          "NL32B": "Groot-Amsterdam",
+          "AT130": "Wien"
+        }
+      }
+    },
+    "time": {
+      "label": "Time",
+      "category": {
+        "index": {
+          "2023": 0
+        },
+        "label": {
+          "2023": "2023"
+        }
+      }
+    }
+  }
+}

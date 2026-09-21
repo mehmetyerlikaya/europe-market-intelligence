@@ -1,0 +1,151 @@
+{
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Population on 1 January by broad age group, sex and NUTS 3 region",
+  "source": "ESTAT",
+  "updated": "2026-08-28T23:00:00+0200",
+  "value": {
+    "7": 2005760,
+    "0": 1264371,
+    "1": 1384732,
+    "2": 1488719,
+    "3": 3662381,
+    "4": 1851596,
+    "5": 2084894,
+    "6": 1472793,
+    "23": 1387896,
+    "16": 871654,
+    "17": 909437,
+    "18": 1033053,
+    "19": 2448136,
+    "20": 1253012,
+    "21": 1446763,
+    "22": 1030872,
+    "31": 328572,
+    "24": 163270,
+    "25": 256648,
+    "26": 254536,
+    "27": 700951,
+    "28": 333035,
+    "29": 385453,
+    "30": 232524,
+    "15": 289292,
+    "8": 229447,
+    "9": 218647,
+    "10": 201130,
+    "11": 513294,
+    "12": 265549,
+    "13": 252678,
+    "14": 209397
+  },
+  "status": {
+    "5": "p",
+    "21": "p",
+    "29": "p",
+    "13": "p"
+  },
+  "id": [
+    "freq",
+    "unit",
+    "sex",
+    "age",
+    "geo",
+    "time"
+  ],
+  "size": [
+    1,
+    1,
+    1,
+    4,
+    8,
+    1
+  ],
+  "dimension": {
+    "freq": {
+      "label": "Time frequency",
+      "category": {
+        "index": {
+          "A": 0
+        },
+        "label": {
+          "A": "Annual"
+        }
+      }
+    },
+    "unit": {
+      "label": "Unit of measure",
+      "category": {
+        "index": {
+          "NR": 0
+        },
+        "label": {
+          "NR": "Number"
+        }
+      }
+    },
+    "sex": {
+      "label": "Sex",
+      "category": {
+        "index": {
+          "T": 0
+        },
+        "label": {
+          "T": "Total"
+        }
+      }
+    },
+    "age": {
+      "label": "Age class",
+      "category": {
+        "index": {
+          "TOTAL": 0,
+          "Y_LT15": 1,
+          "Y15-64": 2,
+          "Y_GE65": 3
+        },
+        "label": {
+          "TOTAL": "Total",
+          "Y_LT15": "Less than 15 years",
+          "Y15-64": "From 15 to 64 years",
+          "Y_GE65": "65 years or over"
+        }
+      }
+    },
+    "geo": {
+      "label": "Geopolitical entity (reporting)",
+      "category": {
+        "index": {
+          "BE100": 0,
+          "CZ010": 1,
+          "DE212": 2,
+          "DE300": 3,
+          "DE600": 4,
+          "FR101": 5,
+          "NL32B": 6,
+          "AT130": 7
+        },
+        "label": {
+          "BE100": "Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad",
+          "CZ010": "Hlavní město Praha",
+          "DE212": "München, Kreisfreie Stadt",
+          "DE300": "Berlin",
+          "DE600": "Hamburg",
+          "FR101": "Paris",
+          "NL32B": "Groot-Amsterdam",
+          "AT130": "Wien"
+        }
+      }
+    },
+    "time": {
+      "label": "Time",
+      "category": {
+        "index": {
+          "2024": 0
+        },
+        "label": {
+          "2024": "2024"
+        }
+      }
+    }
+  }
+}

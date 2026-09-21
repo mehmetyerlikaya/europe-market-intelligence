@@ -1,0 +1,115 @@
+[
+  {
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "School",
+      "Authorities",
+      "Observance"
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "name": "King's Day",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "name": "Liberation Day",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "School",
+      "Authorities"
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "name": "Ascension Day",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-24",
+    "name": "Pentecost",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "name": "Whit Monday",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-12-25",
+    "name": "Christmas Day",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  },
+  {
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "countryCode": "NL",
+    "nationalHoliday": true,
+    "subdivisionCodes": null,
+    "holidayTypes": [
+      "Public"
+    ]
+  }
+]
