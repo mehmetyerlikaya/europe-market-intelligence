@@ -1,0 +1,20 @@
+.venv/
+.local/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+*.duckdb
+*.duckdb.wal
+data/*.tmp
+build/
+dist/
+pytest-cache-files-*/
+# Keep the original local planning handoff; publish the implemented docs/ contract.
+/00_CODEX_MASTER_PROMPT.md
+/01_PROJECT_BRIEF.md
+/02_TECHNICAL_DECISIONS.md
+/03_DATA_CONTRACT.md
+/04_BUILD_AND_ACCEPTANCE_PLAN.md
+/05_README_AND_DOCUMENTATION_GUIDE.md
+/06_OWNER_NOTES.md

@@ -1,0 +1,20 @@
+eurostat:
+  base_url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data
+  datasets:
+    population:
+      code: demo_r_pjanaggr3
+      year: 2024
+      unit: NR
+    density:
+      code: demo_r_d3dens
+      year: 2024
+      unit: PER_KM2
+    gdp:
+      code: nama_10r_3gdp
+      # Explicit deviation: 2024 missing for DE300, DE600, DE212, AT130.
+      # See docs/DECISIONS.md. No automatic year fallback is implemented.
+      year: 2023
+      unit: PPS_EU27_2020_HAB
+holidays:
+  base_url: https://nagerholidays.com/api/v4/Holidays
+  holiday_year: 2026

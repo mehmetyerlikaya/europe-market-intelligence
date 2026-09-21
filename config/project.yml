@@ -1,0 +1,45 @@
+as_of_date: "2026-09-21"
+sources: sources.yml
+database: ../data/market_intelligence.duckdb
+export: ../data/sample_market_intelligence.csv
+markets:
+  - market_id: DE_BERLIN
+    market_name: Berlin
+    country_code: DE
+    nuts3_code: DE300
+    region_label: Berlin
+  - market_id: DE_HAMBURG
+    market_name: Hamburg
+    country_code: DE
+    nuts3_code: DE600
+    region_label: Hamburg
+  - market_id: DE_MUNICH
+    market_name: Munich
+    country_code: DE
+    nuts3_code: DE212
+    region_label: "München, Kreisfreie Stadt"
+  - market_id: AT_VIENNA
+    market_name: Vienna
+    country_code: AT
+    nuts3_code: AT130
+    region_label: Wien
+  - market_id: CZ_PRAGUE
+    market_name: Prague
+    country_code: CZ
+    nuts3_code: CZ010
+    region_label: Hlavní město Praha
+  - market_id: NL_AMSTERDAM
+    market_name: Amsterdam
+    country_code: NL
+    nuts3_code: NL32B
+    region_label: Groot-Amsterdam
+  - market_id: BE_BRUSSELS
+    market_name: Brussels
+    country_code: BE
+    nuts3_code: BE100
+    region_label: Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad
+  - market_id: FR_PARIS
+    market_name: Paris
+    country_code: FR
+    nuts3_code: FR101
+    region_label: Paris
