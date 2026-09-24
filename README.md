@@ -58,6 +58,28 @@ remain inspectable in the raw Eurostat tables.
 
 ## Run locally
 
+### Local browser presentation
+
+Install the optional UI with `python -m pip install -e '.[app]'`, then run
+`python -m streamlit run streamlit_app.py` from the project folder.
+Open **http://127.0.0.1:8501** in your browser. On this configured Windows computer,
+double-click **Open Market Dashboard.cmd** instead; keep its terminal open while
+using the app. Press Ctrl+C in that terminal to stop the server.
+
+The presentation includes the pipeline flow, live refresh logs, a market selector,
+the result table, a CSV download and a fresh check of the saved mart. The run button
+invokes the same CLI pipeline as the terminal. It requires internet access; viewing
+an existing snapshot does not. The UI reads DuckDB rather than trusting a possibly
+older CSV. Only one browser-triggered refresh can run at a time in a server process.
+
+### Terminal and initial setup
+
+On an already configured Windows computer, double-click **Run Market Pipeline.cmd**
+in this folder. A separate terminal shows the live fetch, a summary of the data
+layers, and the eight market results, then waits until you close it. Codex is not
+required. Open `data/sample_market_intelligence.csv` in Excel to inspect the full
+output. For a fresh checkout, complete the setup below first.
+
 Use Python **3.12 or 3.13** from a checkout of this repository. No API key is needed.
 Live runs require internet access.
 
@@ -116,7 +138,8 @@ and their sum, national calendar coverage and calendar-feature consistency.
 Offline tests cover real API fixtures, sparse/dense JSON-stat, missing observations,
 changed region metadata, malformed holiday responses, same-day and day-30 boundaries,
 duplicate holiday dates, reruns and rollback after failed refreshes. Socket connections
-are blocked in the test suite. Fixtures are described in [tests/fixtures](tests/fixtures/README.md).
+to external hosts are blocked in the test suite; local asyncio wake-up connections
+are allowed for UI tests. Fixtures are described in [tests/fixtures](tests/fixtures/README.md).
 
 ## Query the mart
 
@@ -155,7 +178,8 @@ This is an independent portfolio project with eight market proxies, mixed
 socioeconomic source years, national holidays only and no historical snapshots.
 Statistical observations can be provisional and later revised. A null next holiday
 means none remains within the fetched year. Live runs depend on external availability.
-There is no scheduler, monitoring service, dashboard or demand model.
+There is no scheduler, monitoring service or demand model. The optional Streamlit
+interface is a local presentation layer, not a deployed multi-user service.
 
 A production version would need scheduled orchestration, freshness monitoring and
 alerting, versioned snapshots, stronger source contracts, reviewed geographic

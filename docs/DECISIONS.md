@@ -99,3 +99,22 @@ public API connection. TLS verification stays enabled. No credentials are needed
 
 Python 3.13 was used locally; CI checks the supported 3.12 and 3.13 versions.
 Direct Python commands work on Windows without requiring GNU Make.
+
+## 2026-09-24 — Optional local Streamlit presentation
+
+The owner explicitly requested a browser interface after reviewing the pipeline,
+superseding the initial no-dashboard scope restriction. Streamlit is an optional
+`app` dependency: ingestion, modelling and validation still live in the original
+pipeline. The UI runs that CLI in a subprocess, streams its actual log and reads
+DuckDB with short-lived connections. It never silently substitutes fixture data.
+
+Saved snapshot checks call the existing mart validator. Failure is displayed and
+CSV download is disabled for an invalid snapshot. The UI's export is generated
+from the displayed database rows, so it cannot accidentally serve a stale CSV.
+Source years and the fixed calendar date are visible. A failed refresh is separate
+from the saved snapshot's validity and load time. A process-wide lock serializes
+browser-triggered refreshes; DuckDB still governs access from separate CLI processes.
+
+The service binds to localhost. A Windows launcher opens the browser independently
+of Codex. Default CI installs the optional app extra and tests empty, successful,
+failed-refresh, filtering and invalid-snapshot views using Streamlit AppTest.

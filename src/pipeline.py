@@ -30,9 +30,13 @@ def run(config: dict, fetch=get_json) -> int:
     con = duckdb.connect(str(database))
     try:
         con.execute("BEGIN TRANSACTION")
+        LOGGER.info("Loading raw source records")
         load_raw(con, config, data)
+        LOGGER.info("Building SQL staging tables and market mart")
         transform(con)
+        LOGGER.info("Checking market coverage, metrics, years and calendar features")
         validate_mart(con, config)
+        LOGGER.info("Quality checks passed; preparing snapshot and CSV")
         result = con.execute("SELECT * FROM mart.market_intelligence ORDER BY market_id")
         columns = [d[0] for d in result.description]
         rows = result.fetchall()

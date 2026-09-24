@@ -12,10 +12,18 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 @pytest.fixture(autouse=True)
 def no_network(monkeypatch):
+    original_connect = socket.socket.connect
+
+    def local_only(sock, address):
+        # Windows asyncio uses a loopback socket pair for its internal wake-up pipe.
+        if isinstance(address, tuple) and address[0] in ("127.0.0.1", "::1"):
+            return original_connect(sock, address)
+        raise AssertionError("External network access is forbidden in the test suite")
+
     def blocked(*args, **kwargs):
         raise AssertionError("Network access is forbidden in the default test suite")
 
-    monkeypatch.setattr(socket.socket, "connect", blocked)
+    monkeypatch.setattr(socket.socket, "connect", local_only)
     monkeypatch.setattr(socket.socket, "connect_ex", blocked)
     monkeypatch.setattr(socket, "create_connection", blocked)
 
