@@ -124,6 +124,7 @@ Open the database with DuckDB, for example in Python:
 
 ```python
 import duckdb
+
 con = duckdb.connect("data/market_intelligence.duckdb", read_only=True)
 print(con.sql("SELECT market_name, population_total FROM mart.market_intelligence"))
 ```
